@@ -79,7 +79,7 @@ app.use("/api/v1/posts", postRouter);
 app.use("/api/v1/users", userRouter);
 
 app.get("/", (req, res) => {
-  res.send("<h2>Hi THere!!! Vaibhav Sanil </h2>");
+  res.send("<h2>Hi THere!!! Vaibhav </h2>");
 });
 
 const port = process.env.PORT || 3000;
